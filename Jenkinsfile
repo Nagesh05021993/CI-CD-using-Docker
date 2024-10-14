@@ -9,7 +9,7 @@ pipeline {
       stage('checkout') {
            steps {
              
-                git credentialsId: 'Password', url: 'https://github.com/Nagesh05021993/hello-world-tomcat-war.git'
+                git credentialsId: 'Password', url: 'https://github.com/Nagesh05021993/CI-CD-using-Docker.git'
              
           }
         }
